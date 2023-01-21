@@ -9,7 +9,8 @@
     "web": "expo start --web",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "emulator": "emulator -avd Pixel_5_API_30"
+    "emulator": "emulator -avd Pixel_5_API_30",
+    "json": "E:/Dropbox/Dev/Projects/NucampFolder/json-server/start-json-server.bat"
   },
   "dependencies": {
     "@babel/generator": "^7.20.7",

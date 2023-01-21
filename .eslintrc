@@ -9,6 +9,20 @@
       "error",
       "always"
     ],
+    "react/no-unstable-nested-components": [
+      "error",
+      {
+        "allowAsProps": true
+      }
+    ],
+    "react/destructuring-assignment": [
+      "warn",
+      "always",
+      {
+        "ignoreClassFields": 0,
+        "destructureInSignature": "ignore"
+      }
+    ],
     "prettier/prettier": [
       "error",
       {
